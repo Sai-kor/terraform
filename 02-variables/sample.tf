@@ -43,3 +43,18 @@ variable "demo5" {
     is_started = true
   }
 }
+
+output "demo2" {
+  value = var.demo2
+}
+
+output "demo3" {
+  value = var.demo3
+}
+output "demo4" {
+  value = var.demo4[0]
+}
+
+output "mapvars" {
+  value = var.demo5["course"]  //key
+}

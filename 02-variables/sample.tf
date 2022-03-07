@@ -9,3 +9,8 @@ output "demo" {
 // can declare an empty variable too ,then tf interrupts and asks for user input
 
 variable "demo1" {}
+
+
+output "demo1" {
+  value = var.demo1
+}

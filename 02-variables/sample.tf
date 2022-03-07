@@ -58,3 +58,16 @@ output "demo4" {
 output "mapvars" {
   value = var.demo5["course"]  //key
 }
+
+# varaiblefrom tfvars
+
+variable "input1" {} #we will get vars from tfvars file
+variable "input2" {}
+
+output "input1" {
+  value = var.input1
+}
+
+output "input2" {
+  value = var.input2
+}

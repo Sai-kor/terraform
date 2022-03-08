@@ -73,3 +73,9 @@ output "input1" {
 output "input2" {
   value = var.input2
 }
+
+## vars from shell env
+variable "input_shell" {}
+output "input_shell_out" {
+  value = var.input_shell
+}

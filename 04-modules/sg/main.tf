@@ -1,4 +1,4 @@
-##filename is our choice not mandatory to use main.tf
+##filename is our choice not mandatory to use vpc.tf
 
 resource "aws_security_group" "allow_tls" {
   name        = "allow_tls"

@@ -1,2 +1,2 @@
-input1 = "abc"
-input2 = 200
+input1 = 123
+input2 = "abc"

@@ -61,7 +61,9 @@ output "mapvars" {
 
 # varaiblefrom tfvars
 
-variable "input1" {} #we will get vars from tfvars file
+variable "input1" {
+  type = number
+} #we will get vars from tfvars file
 variable "input2" {}
 
 output "input1" {

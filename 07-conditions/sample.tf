@@ -8,6 +8,6 @@ variable "a" {
   default = 1
 }
 
-resource "null" "sample" {
+resource "null_resource" "sample" {
   count = var.a == 1 ? 1 : 0
 }

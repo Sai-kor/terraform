@@ -7,3 +7,7 @@ output "sample" {
 variable "a" {
   default = 1
 }
+
+resource "null" "sample" {
+  count = var.a == 1 ? 1 : 0
+}
